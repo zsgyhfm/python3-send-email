@@ -20,6 +20,7 @@ message["Subject"] = "活得真累"
 
 
 try:
+    # 最初使用25 非ssl端口 总是链接超时 
     smtp_obj = smtplib.SMTP_SSL(mail_host, 465,timeout=30)
     smtp_obj.login(mail_account, pwd)
     smtp_obj.set_debuglevel(1)
