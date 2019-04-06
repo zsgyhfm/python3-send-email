@@ -5,11 +5,11 @@ from email.mime.text import MIMEText
 # smtp服务器
 mail_host = "smtp.163.com"
 # 邮箱账户
-mail_account = "xyglc2014@163.com"
+mail_account = "xxxxx"
 # 授权码
-pwd = "zaks123"
+pwd = "zxxxxx"
 # 接收邮箱
-receive = '791495799@qq.com'
+receive = 'xxxx'
 
 # 邮件标题
 context = "测试python发件"
